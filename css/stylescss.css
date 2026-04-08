@@ -302,18 +302,15 @@ footer .partenaire ul li{
 
 /*# sourceMappingURL=stylescss.css.map */
 
-[style*="background-color: orange"], 
-[style*="background-color: rgb(255, 165, 0)"],
-main section {
-    display: flex !important;
-    flex-wrap: wrap !important;
-    justify-content: center !important;
-    gap: 20px !important;
-}
-
-[style*="background-color: orange"] img,
-main section img {
+img {
     width: 160px !important;
     height: 240px !important;
     object-fit: cover !important;
+    margin: 10px !important;
+}
+
+main, section, .row, .container {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
 }
