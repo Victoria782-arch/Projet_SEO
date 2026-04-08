@@ -301,3 +301,19 @@ footer .partenaire ul li{
   font-size: 1rem; }
 
 /*# sourceMappingURL=stylescss.css.map */
+
+.container-films {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.container-films img {
+    width: 160px;
+    height: 240px;
+    object-fit: cover;
+    display: block;
+    border-radius: 4px;
+}
