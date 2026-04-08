@@ -117,7 +117,7 @@ body {
   min-height: 200px; }
 
 .movie {
-  background: #f8d480 url("../images/04-Image.jpg") no-repeat bottom;
+  background: #f8d480 no-repeat bottom;
   background-size: 100% auto;
   height: auto;
   min-height: 200px; }
@@ -302,15 +302,12 @@ footer .partenaire ul li{
 
 /*# sourceMappingURL=stylescss.css.map */
 
-img {
-    width: 160px !important;
-    height: 240px !important;
+.hoverImg img {
+    height: 200px !important;
     object-fit: cover !important;
-    margin: 10px !important;
+    width: 100% !important;
+    display: block;
 }
-
-main, section, .row, .container {
-    display: flex !important;
-    flex-wrap: wrap !important;
-    justify-content: center !important;
+.col-lg-2 {
+    margin-bottom: 30px;
 }
