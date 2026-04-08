@@ -302,18 +302,16 @@ footer .partenaire ul li{
 
 /*# sourceMappingURL=stylescss.css.map */
 
-.container-films {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
+main .row img, 
+.container img, 
+section img {
+    width: 160px !important;
+    height: 240px !important;
+    object-fit: cover !important;
+    margin: 10px !important;
 }
 
-.container-films img {
-    width: 160px;
-    height: 240px;
-    object-fit: cover;
-    display: block;
-    border-radius: 4px;
-}
+.row, .container {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
